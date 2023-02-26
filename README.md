@@ -69,3 +69,12 @@ $ npm run test:cov
 * MongoDB
 * NestJs 
 * Docker
+
+# Notas 
+Heroku redeploy sin cambios
+
+```bash
+git commit --allow-empty -m "Tigger Heroku deploy"
+git push heroku <master|main>
+
+```
